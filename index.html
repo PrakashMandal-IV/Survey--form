@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+
+        <div id="title">
+            <h1>Fill the Survey Form</h1>
+        </div>
+        <div id="description">
+            <h3>Enter your details below</h3>
+        </div>
+        <form id="survey-form">
+            <label id="name">User Name</label>
+            <input class="textbox" type="text" placeholder="Enter your name" id="name" required>
+            <label id="email>">Email</label>
+            <input class="textbox" type="email" placeholder="Enter your email" id="email" required>
+            <label id="number">Number</label>
+            <input class="textbox" type="number" placeholder="Enter your number" id="number" required>
+            <label for="dropdown">Gender</label>
+            <select class="textbox" id="dropdown" name="Gender">
+                <option> Choose your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Trans">Trans</option>
+            </select>
+            <label for="status">Age</label>
+            <label for="less then 18">
+                <input type="radio" id="status" name="age">Less Then 18</label>
+            <label for="18-45">
+                <input type="radio" id="status" name="age">18-45</label>
+            <label for="45+">
+                <input type="radio" id="status" name="age">45+</label>
+            <label for="skills">Skills</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">C</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">C++</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">C#</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">Java</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">Python</label>
+            <label for="C">
+                <input type="checkbox" value="c" id="skills" name="skill">Java Script</label>
+            <label for="textarea">About</label>    
+            <input type="text" id="textarea" placeholder="Tell us about yourself" required />    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
